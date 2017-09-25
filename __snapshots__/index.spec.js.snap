@@ -1,129 +1,43 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`themer Alfred.app theme template should render properly 1`] = `
-"{
-  \\"alfredtheme\\": {
-    \\"result\\": {
-      \\"textSpacing\\": 6,
-      \\"subtext\\": {
-        \\"size\\": 12,
-        \\"colorSelected\\": \\"#474247FF\\",
-        \\"font\\": \\"System Light\\",
-        \\"color\\": \\"#A29DA3FF\\"
-      },
-      \\"shortcut\\": {
-        \\"size\\": 16,
-        \\"colorSelected\\": \\"#474247FF\\",
-        \\"font\\": \\"System\\",
-        \\"color\\": \\"#E0DCE0FF\\"
-      },
-      \\"backgroundSelected\\": \\"#26C99EFF\\",
-      \\"text\\": {
-        \\"size\\": 18,
-        \\"colorSelected\\": \\"#282629FF\\",
-        \\"font\\": \\"System Light\\",
-        \\"color\\": \\"#FFFCFFFF\\"
-      },
-      \\"iconPaddingHorizontal\\": 6,
-      \\"paddingVertical\\": 6,
-      \\"iconSize\\": 36
-    },
-    \\"search\\": {
-      \\"paddingVertical\\": 8,
-      \\"background\\": \\"#6560667F\\",
-      \\"spacing\\": 10,
-      \\"text\\": {
-        \\"size\\": 22,
-        \\"colorSelected\\": \\"#66BFFFFF\\",
-        \\"font\\": \\"System\\",
-        \\"color\\": \\"#FFFCFFFF\\"
-      },
-      \\"backgroundSelected\\": \\"#F553BFFF\\"
-    },
-    \\"window\\": {
-      \\"color\\": \\"#282629CC\\",
-      \\"paddingHorizontal\\": 10,
-      \\"width\\": 560,
-      \\"borderPadding\\": 0,
-      \\"borderColor\\": \\"#28262900\\",
-      \\"blur\\": 15,
-      \\"roundness\\": 2,
-      \\"paddingVertical\\": 10
-    },
-    \\"credit\\": \\"Themer\\",
-    \\"separator\\": {
-      \\"color\\": \\"#28262900\\",
-      \\"thickness\\": 0
-    },
-    \\"scrollbar\\": {
-      \\"color\\": \\"#FFD24AFF\\",
-      \\"thickness\\": 2
-    },
-    \\"name\\": \\"Themer Dark\\"
-  }
-}"
+"<resources>
+    <color android:name=\\"color_shade0_dark\\">#282629</color>
+    <color android:name=\\"color_shade1_dark\\">#474247</color>
+    <color android:name=\\"color_shade2_dark\\">#656066</color>
+    <color android:name=\\"color_shade3_dark\\">#847E85</color>
+    <color android:name=\\"color_shade4_dark\\">#A29DA3</color>
+    <color android:name=\\"color_shade5_dark\\">#C1BCC2</color>
+    <color android:name=\\"color_shade6_dark\\">#E0DCE0</color>
+    <color android:name=\\"color_shade7_dark\\">#FFFCFF</color>
+    <color android:name=\\"color_accent0_dark\\">#FF4050</color>
+    <color android:name=\\"color_accent1_dark\\">#F28144</color>
+    <color android:name=\\"color_accent2_dark\\">#FFD24A</color>
+    <color android:name=\\"color_accent3_dark\\">#A4CC35</color>
+    <color android:name=\\"color_accent4_dark\\">#26C99E</color>
+    <color android:name=\\"color_accent5_dark\\">#66BFFF</color>
+    <color android:name=\\"color_accent6_dark\\">#CC78FA</color>
+    <color android:name=\\"color_accent7_dark\\">#F553BF</color>
+</resources>"
 `;
 
 exports[`themer Alfred.app theme template should render properly 2`] = `
-"{
-  \\"alfredtheme\\": {
-    \\"result\\": {
-      \\"textSpacing\\": 6,
-      \\"subtext\\": {
-        \\"size\\": 12,
-        \\"colorSelected\\": \\"#E0DCE0FF\\",
-        \\"font\\": \\"System Light\\",
-        \\"color\\": \\"#847E85FF\\"
-      },
-      \\"shortcut\\": {
-        \\"size\\": 16,
-        \\"colorSelected\\": \\"#E0DCE0FF\\",
-        \\"font\\": \\"System\\",
-        \\"color\\": \\"#474247FF\\"
-      },
-      \\"backgroundSelected\\": \\"#1FC598FF\\",
-      \\"text\\": {
-        \\"size\\": 18,
-        \\"colorSelected\\": \\"#FFFCFFFF\\",
-        \\"font\\": \\"System Light\\",
-        \\"color\\": \\"#282629FF\\"
-      },
-      \\"iconPaddingHorizontal\\": 6,
-      \\"paddingVertical\\": 6,
-      \\"iconSize\\": 36
-    },
-    \\"search\\": {
-      \\"paddingVertical\\": 8,
-      \\"background\\": \\"#C1BCC27F\\",
-      \\"spacing\\": 10,
-      \\"text\\": {
-        \\"size\\": 22,
-        \\"colorSelected\\": \\"#53A6E1FF\\",
-        \\"font\\": \\"System\\",
-        \\"color\\": \\"#282629FF\\"
-      },
-      \\"backgroundSelected\\": \\"#EE4EB8FF\\"
-    },
-    \\"window\\": {
-      \\"color\\": \\"#FFFCFFCC\\",
-      \\"paddingHorizontal\\": 10,
-      \\"width\\": 560,
-      \\"borderPadding\\": 0,
-      \\"borderColor\\": \\"#FFFCFF00\\",
-      \\"blur\\": 15,
-      \\"roundness\\": 2,
-      \\"paddingVertical\\": 10
-    },
-    \\"credit\\": \\"Themer\\",
-    \\"separator\\": {
-      \\"color\\": \\"#FFFCFF00\\",
-      \\"thickness\\": 0
-    },
-    \\"scrollbar\\": {
-      \\"color\\": \\"#EEBA21FF\\",
-      \\"thickness\\": 2
-    },
-    \\"name\\": \\"Themer Light\\"
-  }
-}"
+"<resources>
+    <color android:name=\\"color_shade0_light\\">#FFFCFF</color>
+    <color android:name=\\"color_shade1_light\\">#E0DCE0</color>
+    <color android:name=\\"color_shade2_light\\">#C1BCC2</color>
+    <color android:name=\\"color_shade3_light\\">#A29DA3</color>
+    <color android:name=\\"color_shade4_light\\">#847E85</color>
+    <color android:name=\\"color_shade5_light\\">#656066</color>
+    <color android:name=\\"color_shade6_light\\">#474247</color>
+    <color android:name=\\"color_shade7_light\\">#282629</color>
+    <color android:name=\\"color_accent0_light\\">#F03E4D</color>
+    <color android:name=\\"color_accent1_light\\">#F37735</color>
+    <color android:name=\\"color_accent2_light\\">#EEBA21</color>
+    <color android:name=\\"color_accent3_light\\">#97BD2D</color>
+    <color android:name=\\"color_accent4_light\\">#1FC598</color>
+    <color android:name=\\"color_accent5_light\\">#53A6E1</color>
+    <color android:name=\\"color_accent6_light\\">#BF65F0</color>
+    <color android:name=\\"color_accent7_light\\">#EE4EB8</color>
+</resources>"
 `;
