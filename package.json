@@ -1,7 +1,7 @@
 {
-  "name": "themer-alfred",
-  "version": "1.0.4",
-  "description": "An Alfred.app theme generator for themer.",
+  "name": "themer-android",
+  "version": "1.0.0",
+  "description": "An Android resoruce colors theme generator for themer.",
   "main": "index.js",
   "engines": {
     "node": ">=6.11"
@@ -9,24 +9,26 @@
   "scripts": {
     "test": "jest"
   },
-  "author": "mjswensen",
+  "author": "pddstudio",
   "license": "MIT",
   "devDependencies": {
     "jest": "^20.0.4",
     "themer-colors-default": "^1.0.3"
   },
-  "dependencies": {},
+  "dependencies": {
+    "xml": "1.0.1"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mjswensen/themer-alfred.git"
+    "url": "git+https://github.com/pddstudio/themer-android.git"
   },
   "keywords": [
     "themer",
-    "alfred",
+    "android",
     "theme"
   ],
   "bugs": {
-    "url": "https://github.com/mjswensen/themer-alfred/issues"
+    "url": "https://github.com/pddstudio/themer-android/issues"
   },
-  "homepage": "https://github.com/mjswensen/themer-alfred#readme"
+  "homepage": "https://github.com/pddstudio/themer-android#readme"
 }
