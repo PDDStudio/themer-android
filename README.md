@@ -1,4 +1,4 @@
-# themer-android [![Travis](https://img.shields.io/travis/pddstudio/themer-android.svg)](https://travis-ci.org/pddstudio/themer-android)
+# themer-android [![Travis](https://img.shields.io/travis/pddstudio/themer-android.svg)](https://travis-ci.org/pddstudio/themer-android) [![Greenkeeper badge](https://badges.greenkeeper.io/PDDStudio/themer-android.svg)](https://greenkeeper.io/)
 
 An *Android* theme generator for [themer](https://github.com/mjswensen/themer).
 
